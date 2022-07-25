@@ -6,7 +6,7 @@ urls.py (project내부)
 
 	path('', include('postapp.urls')),
 	path('api/user/', include('accounts.urls')),
-    	path('api/user/', include('allauth.urls')),
+    path('api/user/', include('allauth.urls')),
 	post와 달리 사용자와 관련된 url은 api/user/ 경로를 붙임
 
 Postapp-> 게시글, 댓글 CRUD구현
