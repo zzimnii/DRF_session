@@ -1,6 +1,8 @@
 # DRF_session
 프로젝트명: sessionproject
+
 APP: postapp(게시글, 댓글), accounts(사용자)
+
 
 urls.py (project내부)
 
