@@ -3,6 +3,7 @@
 APP: postapp(게시글, 댓글), accounts(사용자)
 
 urls.py (project내부)
+
 	path('', include('postapp.urls')),
 	path('api/user/', include('accounts.urls')),
     	path('api/user/', include('allauth.urls')),
