@@ -8,6 +8,6 @@ user_router.register('user',views.UserViewSet)
 
 urlpatterns = [
     path('signup/',include(user_router.urls)),
-    path('signup/<int:user_id>',include(user_router.urls)),
+    path('api-auth/', include('rest_framework.urls')),
     path('api-auth/', include('rest_framework.urls')),
 ]
